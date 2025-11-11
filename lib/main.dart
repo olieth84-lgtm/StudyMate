@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'screens/form_screen.dart'; 
 
 void main() {
   runApp(const StudyMateApp());
@@ -17,7 +17,7 @@ class StudyMateApp extends StatelessWidget {
         primarySwatch: Colors.indigo,
         scaffoldBackgroundColor: Colors.grey[100],
       ),
-      home: const HomeScreen(),
+      home: const FormScreen(), // важно: const если конструктор const
     );
   }
 }
